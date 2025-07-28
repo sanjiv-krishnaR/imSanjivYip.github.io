@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #df0303;
+}
+
+nav a:last-child {
+    background-color: #3403f8;
+    color: rgb(5, 0, 0);
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+header h1 {
+    font-size: 2.8em;
+    color: #00e676;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header marquee {
+    color: #ddd;
+    background-color: #210b8d;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+header h2 {
+    color: violet;
+    margin-top: 15px;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #df0303;
+}
+
+nav a:last-child {
+    background-color: #3403f8;
+    color: rgb(5, 0, 0);
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+header h1 {
+    font-size: 2.8em;
+    color: #00e676;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header marquee {
+    color: #ddd;
+    background-color: #210b8d;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+header h2 {
+    color: violet;
+    margin-top: 15px;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    animation: slideUp 2s ease-out;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.about-text {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f5f5f5;
+}
+
+.about-image img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fa0303;
+    transition: transform 0.5s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+.social-icons {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    font-size: 35px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.fa-instagram { color: #c15a35; }
+.fa-telegram { color: #0088cc; }
+.fa-linkedin { color: #0077b5; }
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.red-heading {
+    color: #f44336;
+}
+
+.green-heading {
+    color: #00e676;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.about-text {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f5f5f5;
+}
+
+.about-image img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fa0303;
+    transition: transform 0.5s ease;
+    margin-top: -50000px; 
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+.social-icons {
+    text-align: center ;
+    margin: 50px 0;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    font-size: 35px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.fa-instagram { color: #c15a35; }
+.fa-telegram { color: #0088cc; }
+.fa-linkedin { color: #0077b5; }
+
+footer {
+    background: rgb(14, 2, 2);
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.red-heading {
+    color: #f44336;
+}
+
+.green-heading {
+    color: #00e676;
+}
